@@ -1,0 +1,3 @@
+{
+  "builds": [{ "src": "npm start", "use": "@now/node-server" }]
+}
