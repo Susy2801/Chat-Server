@@ -5,15 +5,5 @@
       "src": "/index.js",
       "use": "@vercel/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "http://localhost:3001",
-      "dest": "src/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
   ]
 }
